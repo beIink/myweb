@@ -1,0 +1,182 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    height: 100%;
+    background-image: linear-gradient(#e3ffe7,#d9e7ff);
+}
+.Search
+{
+    font-size: 16px;
+    font-size: 20px;
+    line-height: 5px;
+
+    width: 625px;
+    height: 40px;
+    margin-bottom: 5px;
+
+    text-indent: 10px;
+
+    color: rgba(255,168,168);
+    background: rgba(0,0,0,0);
+}
+.submit
+{
+    position: absolute;
+    width: 45px;
+    height: 42px;
+    margin-left: inherit;
+    background:red;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+.Search-type
+{
+    width: 800px;
+    height: 100px;
+    margin: auto;
+
+    background: rgba(0,0,0,0);
+}
+input
+{
+    margin-top: 20px;
+    margin-left: 95px;
+
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    outline: none;
+    /* background: red; */
+}
+.ALL
+{
+    width: 100%;
+    height: 500px;
+    margin-top: 220px;
+    /* background: black; */
+}
+li
+{
+    margin-top: 0;
+    /* 去点 */
+
+    list-style-type: none;
+}
+a
+{
+    /* 去下划线 */
+    text-decoration: none;
+}
+ul
+{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+p
+{
+    position: relative;
+
+    margin-top: 15px;
+
+    text-align: center;
+
+    color: grey;
+}
+svg
+{
+    margin-top: 20px;
+    margin-left: 57px;
+}
+/* 分布 */
+.list
+{
+    /* background: grey; */
+    display: -ms-flexbox;
+    display: flex;
+
+    height: 120px;
+    margin-top: 50px;
+    margin-right: 0;
+
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    justify-content: center;
+}
+.alone
+{
+    width: 150px;
+    height: 100px;
+    /* background: blue; */
+}
+
+.icon
+{
+    display: inline-block;
+
+    width: 30px;
+    height: 30px;
+
+    vertical-align: middle;
+}
+.cover
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 120px;
+    background-color: rgba(125,124,0,0);
+}
+.cover div
+{
+    display: none;
+}
+.cover:hover div
+{
+    display: initial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright
+{
+    position: absolute;
+    bottom: 5px;
+
+    width: 100%;
+
+    text-align: center;
+}
+.copyright a
+{
+    color: #b6b6b6;
+}
